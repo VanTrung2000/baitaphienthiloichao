@@ -1,17 +1,20 @@
-﻿using System;
+using System;
 
 namespace hienthiloichao
 {
     class Program
     {
-        static void Main(string[] args)
+        static void chao()
         {
             String a;
             Console.Write("Enter your name: ");
             a = Convert.ToString(Console.ReadLine());
-            Console.WriteLine("Hello:"+a);
+            Console.WriteLine("Hello:" + a);
+
+        }
+        static void Main(string[] args)
+        {
+            chao();
             Console.ReadKey();
         }
-
-    }
-}
+        } }
